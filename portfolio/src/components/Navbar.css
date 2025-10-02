@@ -1,0 +1,42 @@
+/* general nav styling */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--tertiary-color);
+    height: 8%;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* logo and links styling */
+
+.site-logo {
+    height:5rem;
+    width: 5rem;
+}
+
+.title {
+    color: var(--primary-color);
+    padding-left: 12px;
+}
+
+.title:hover {
+    cursor: default;
+}
+
+.home, .about, .projects, .skills, .contact {
+    padding:8px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.15rem;
+}
+
+.nav-links {
+    padding-right: 10px;
+}

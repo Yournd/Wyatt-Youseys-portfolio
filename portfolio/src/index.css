@@ -1,0 +1,15 @@
+:root {
+  font-family: "Enriqueta", serif;
+  --primary-color: #faecd1;
+  --secondary-color: #aa3e2e;
+  --tertiary-color: #262423;
+  --quaternary-color: #f8b380;
+  --quinary-color: #f79046;
+  --senary-color: #e7533d;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--secondary-color);
+}

@@ -1,0 +1,32 @@
+#home {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#home {
+    cursor: default;
+}
+
+
+
+.i-icon, .g-icon, .arrow-icon {
+    height: 2rem;
+    width: auto;
+    padding: 5px;
+}
+
+.home-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-details {
+    margin-right: 35rem;
+    color: var(--tertiary-color);
+}
+
+.home-details:hover {
+    cursor: default;
+}

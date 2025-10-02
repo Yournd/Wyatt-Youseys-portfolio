@@ -1,0 +1,40 @@
+#projects {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#projects:hover {
+    cursor: default;
+}
+
+.project-1, .project-2 {
+    display: flex;
+}
+
+.project-1 {
+    padding-left: 3.5rem;
+}
+
+.project-2 {
+    padding-left: 13rem;
+}
+.github-icon {
+    height: 3rem;
+    width: auto;
+}
+
+.project-description, .project-description2 {
+    padding-top: 4rem;
+    padding-left: 1.5rem;
+}
+
+.project-details, .project-details2 {
+    color: var(--tertiary-color);
+    width: 35rem;
+}
+
+.project-details:hover, .project-details2:hover {
+    cursor: default;
+}
+
+

@@ -1,0 +1,90 @@
+#contact {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#contact:hover {
+    cursor: default;
+}
+
+.contact-main-c {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-txt, .email-txt, .message-txt {
+    color: var(--tertiary-color);
+    padding: 2px;
+}
+
+.message-txt {
+    text-align: center;
+}
+
+.name-input, .email-input, .message-input {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 1.5rem;
+}
+
+textarea {
+    height: fit-content;
+    width: 20rem;
+    padding-left: 5px;
+    padding-top: 2px;
+    text-indent: 10px;
+    overflow-wrap: break-word;
+    font-size: .75rem;
+    color: var(--tertiary-color);
+}
+
+.error, .success {
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    color: var(--tertiary-color);
+}
+
+.error:hover, .success:hover {
+    cursor: default;
+}
+
+button {
+    height: 2rem;
+    width: 3rem;
+    margin: .25rem;
+    border-radius: .75rem;
+    font-size: .85rem;
+    font-weight: bold;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    border-color: var(--quaternary-color);
+}
+
+button:hover {
+    height: 2.25rem;
+    width: 3.25rem;
+    margin: .25rem;
+    cursor: pointer;
+    border-radius: .75rem;
+    font-size: .95rem;
+    font-weight: bold;
+    color: black;
+    background-color: var(--quinary-color);
+    border-color: var(--senary-color);
+}

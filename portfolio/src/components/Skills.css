@@ -1,0 +1,42 @@
+#skills {
+    text-align: center;
+    color: var(--primary-color);
+}
+#skills:hover {
+    cursor: default;
+}
+
+.section-container {
+    display:flex;
+    justify-content: center;
+}
+
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+    width: 25rem;
+    margin: 3rem;
+    border-radius: 15%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-image: radial-gradient(#faecd1, #f8b380);
+}
+
+.skills-container:hover {
+    cursor: default;
+}
+
+.skills-descr {
+    color: var(--tertiary-color);
+    padding: 8px;
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15rem;
+    justify-content: center;
+}

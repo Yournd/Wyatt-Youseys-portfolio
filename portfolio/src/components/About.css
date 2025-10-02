@@ -1,0 +1,30 @@
+#about {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#about {
+    cursor: default;
+}
+
+.about-img {
+    height: 400px;
+    width: 500px;
+    padding-left: 2.5rem;
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-details {
+    color: var(--tertiary-color);
+    width: 35rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.about-details:hover {
+    cursor: default;
+}
+
